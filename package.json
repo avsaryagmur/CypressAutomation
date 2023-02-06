@@ -1,0 +1,20 @@
+{
+  "name": "e2e-cypress-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress": "cypress open",
+    "test": "cypress run"
+  },
+  "author": "yagmuravsardilmit",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.5.1",
+    "cy-verify-downloads": "^0.0.6",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-grep": "^2.13.1",
+    "node-xlsx": "^0.21.0"
+
+  }
+}
