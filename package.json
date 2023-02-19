@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "cypress": "cypress open",
-    "test": "cypress run"
+    "test": "cypress run",
+    "runFirstTest": "cypress run --spec cypress/e2e/firstTest.cy.js",
+    "onChrome": "cypress run --browser chrome"
   },
   "author": "yagmuravsardilmit",
   "license": "ISC",
