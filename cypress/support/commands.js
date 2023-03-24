@@ -38,6 +38,21 @@ Cypress.Commands.add('parseXlsx', (inputFile) => {
   Cypress.Commands.add('deleteFolder', (folderName) => {
     return cy.task('deleteFolder', folderName);
   });
+
+  /* We modifate and create a command for iframe
+  modifate this: 
+       const iFrame =  cy.get('#mce_0_ifr')
+          .its('0.contentDocument.body')   // 0 -> first iframe element
+          .should('have.visible')
+          .then(cy.wrap);
+  */
+  Cypress.Commands.add('getIframe', (iframe)=> {
+     return  cy.get(iframe)
+    .its('0.contentDocument.body')   // 0 -> first iframe element
+    .should('have.visible')
+    .then(cy.wrap);
+
+  })
   
   Cypress.Commands.add('iframe', { prevSubject: 'element' }, ($iframe) => {
     return new Cypress.Promise((resolve) => {
