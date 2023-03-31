@@ -12,11 +12,13 @@
   "author": "yagmuravsardilmit",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^12.5.1",
     "cy-verify-downloads": "^0.0.6",
+    "cypress": "^12.5.1",
     "cypress-file-upload": "^5.0.8",
     "cypress-grep": "^2.13.1",
     "node-xlsx": "^0.21.0"
-
+  },
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.2.3"
   }
 }
