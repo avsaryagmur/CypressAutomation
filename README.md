@@ -37,5 +37,5 @@ or
 `npm install --save-dev @4tw/cypress-drag-drop`
 
 
-## Helpfull Extension
+## Helpful Extension
 I am using SelectorsHub for finding the ui elements.
