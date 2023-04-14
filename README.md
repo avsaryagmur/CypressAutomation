@@ -29,3 +29,13 @@ or
 6. Run all tests interactively:
 
 `yarn cypress`
+
+
+### The packages
+`npm install --save-dev cypress-file-upload`
+
+`npm install --save-dev @4tw/cypress-drag-drop`
+
+
+## Helpfull Extension
+I am using SelectorsHub for finding the ui elements.
