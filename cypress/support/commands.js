@@ -61,4 +61,28 @@ Cypress.Commands.add('parseXlsx', (inputFile) => {
       });
     });
   });
+
+
+  //custom command for clicking on link using label
+  Cypress.Commands.add('clickLink' , (label)=> {
+    cy.get('a').contains(label).click();
+  })
+
+  /*
+  //Over write command
+  Cypress.Commands.overwrite('contains', (originalFn, subject, filter, text, options = {}) => {
+     // determine if a filter argument was passed
+     if(typeof text === 'object'){
+      options = text
+      text = filter
+      filter = undefined
+     }
+
+     options.matchCase = false
+
+     return originalFn(subject, filter, text, options)
+  })
   
+*/
+
+Cypress.Commands.overwrite('contains', (originalFn, subject, filter, text, options = {}) => {})
