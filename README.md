@@ -1,5 +1,43 @@
 # CypressAutomation
 
+### How You Can Create a Cypress Project?
+
+1. Install home brew (if you prefer):
+
+` /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" `
+
+2. Install node:
+
+` brew install node `
+
+3. Download Visual Studio Code
+
+4. Create a new folder and Open it in Visual Studio Code
+
+5. Open the terminal
+
+6. Create package.json file:
+
+`npm -i init`
+
+7. Install Cypress:
+
+`npm install cypress --save -dev`
+
+8. Open Cypress:
+
+`npx cypress open` or `node_modules/.bin/cypress open`
+
+- Click E2E Testing selection when the Welcome to Cypress! page opened. 
+- Click Continue in Configuration files page.
+- Click Start E2E Testing in Chrome button in Choose a browser page.
+- Click Scaffold example specs selection in Create your first spec page.
+- Click Okay, I got it! button.
+
+
+
+
+
 ### Project Description 
 
 ### Setup and Run
