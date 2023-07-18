@@ -1,0 +1,9 @@
+# dependencies
+node_modules/*
+
+# reports
+/cypress/screenshots
+/cypress/videos
+
+# downloads
+/cypress/downloads/*

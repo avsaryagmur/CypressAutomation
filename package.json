@@ -6,7 +6,7 @@
   "scripts": {
     "cypress": "cypress open",
     "test": "cypress run",
-    "runFirstTest": "cypress run --spec cypress/e2e/firstTest.cy.js",
+    "runFirstTest": "npx cypress run --spec cypress/e2e/testAndPractices/firstTest.cy.js",
     "onChrome": "cypress run --browser chrome"
   },
   "author": "yagmuravsardilmit",
