@@ -85,4 +85,12 @@ Cypress.Commands.add('parseXlsx', (inputFile) => {
   
 */
 
-Cypress.Commands.overwrite('contains', (originalFn, subject, filter, text, options = {}) => {})
+
+
+  //custom command for Login
+  Cypress.Commands.add("loginapp", (email, password)=> {
+    cy.get('#Email').type(email);
+    cy.get('#Password').type(password);
+    cy.get("button[class='button-1 login-button']").click();
+
+  })
