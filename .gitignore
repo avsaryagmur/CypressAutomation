@@ -4,6 +4,7 @@ node_modules/*
 # reports
 /cypress/screenshots
 /cypress/videos
+cypress/reports
 
 # downloads
 /cypress/downloads/*
