@@ -5,16 +5,21 @@
   "main": "index.js",
   "scripts": {
     "cypress": "cypress open",
-    "test": "cypress run"
+    "test": "cypress run",
+    "runFirstTest": "npx cypress run --spec cypress/e2e/testAndPractices/firstTest.cy.js",
+    "onChrome": "cypress run --browser chrome"
   },
   "author": "yagmuravsardilmit",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^12.5.1",
     "cy-verify-downloads": "^0.0.6",
-    "cypress-file-upload": "^5.0.8",
+    "cypress": "^12.5.1",
     "cypress-grep": "^2.13.1",
     "node-xlsx": "^0.21.0"
-
+  },
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.2.3",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-mochawesome-reporter": "^3.5.1"
   }
 }
