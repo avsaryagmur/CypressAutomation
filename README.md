@@ -1,6 +1,6 @@
 # CypressAutomation
 
-### How You Can Create a Cypress Project?
+### How Can You Create a Cypress Project?
 
 1. Install home brew (if you prefer):
 
